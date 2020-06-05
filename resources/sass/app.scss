@@ -1,0 +1,51 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+//font-awesome
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+#user{
+    color:black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#welcome{
+    color:blue;
+    font-size: 30px;
+    margin: initial;
+}
+
+.containers{
+    width: 99%;
+    margin: 0.3%;  
+}
+.icons{
+    margin-right: 10px !important;
+    color: rgb(127, 178, 214);
+    margin-left: 50px;;
+}
+
+
+body{
+    background-color: white;
+    //opacity: 0.1;
+    background-position: center;
+    background-repeat: no-repeat;
+    //background-size: cover;
+    background-attachment: fixed;
+
+}
+#logo{
+    width: 65px;
+    height: 65px;
+}
+
